@@ -13,7 +13,7 @@
 #  See the License for the specific language governing permissions and
 #  limitations under the License.
 
-
+drop table if exists name_data;
 create table name_data(
  name_type VARCHAR(15) NOT NULL,
  name      VARCHAR(45) NOT NULL,

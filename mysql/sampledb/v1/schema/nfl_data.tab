@@ -13,7 +13,7 @@
 #  See the License for the specific language governing permissions and
 #  limitations under the License.
 
-
+drop table if exists nfl_data;
 create table nfl_data(
 Position varchar(5),
 player_number SMALLINT,

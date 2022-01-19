@@ -13,7 +13,7 @@
 #  See the License for the specific language governing permissions and
 #  limitations under the License.
 
-
+drop table if exists nfl_stadium_data;
 create table nfl_stadium_data(
 stadium varchar(60),
 seating_capacity MEDIUMINT,

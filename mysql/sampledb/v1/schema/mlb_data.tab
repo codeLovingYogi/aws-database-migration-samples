@@ -13,7 +13,7 @@
 #  See the License for the specific language governing permissions and
 #  limitations under the License.
 
-
+drop table if exists mlb_data;
 create table mlb_data(mlb_id MEDIUMINT,
 mlb_name  VARCHAR(30),
 mlb_pos VARCHAR(30),

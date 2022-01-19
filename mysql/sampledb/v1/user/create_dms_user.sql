@@ -13,7 +13,7 @@
 #  See the License for the specific language governing permissions and
 #  limitations under the License.
 
-
+DROP USER IF EXISTS 'dms_user'@'%';
 CREATE USER 'dms_user'@'%' IDENTIFIED BY 'dms_user';
 
 
